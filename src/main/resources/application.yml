@@ -1,0 +1,11 @@
+spring:
+  ai:
+    google:
+      genai:
+        api-key: ${GOOGLE_GEMINI_API_KEY}
+        chat:
+          model: gemini-2.5-flash
+
+news:
+  api:
+    key: ${NEWS_API_KEY}
